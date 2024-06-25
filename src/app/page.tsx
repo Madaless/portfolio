@@ -155,10 +155,10 @@ export default function Home() {
         className="div"
       >
         <h2 className=" pt-5 text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-          Let's connect
+          Let`&apos;`s connect
         </h2>
         <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-          Write me an email, and let's discuss your requirements, I will be happy to provide my services.
+          Write me an email, and let`&apos;`s discuss your requirements, I will be happy to provide my services.
         </p>
       </motion.div>
 
