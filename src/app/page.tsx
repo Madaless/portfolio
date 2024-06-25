@@ -1,10 +1,8 @@
 'use client'
 import { Dancing_Script } from 'next/font/google'
-import { useEffect } from "react";
 import { StickyScroll } from './components/sticky-scroll-reveal';
 import Image from "next/image";
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
 
 
 // If loading a variable font, you don't need to specify the font weight
@@ -215,7 +213,7 @@ export default function Home() {
                   <textarea
                     className="w-full rounded-lg border-gray-200 p-3 text-sm"
                     placeholder="Message"
-                    rows="8"
+                    rows={8}
                     id="message"
                   ></textarea>
                 </div>
