@@ -11,7 +11,7 @@ const inter = Dancing_Script({ subsets: ['latin'] })
 const content = [
   {
     title: "About Me",
-    description: "Hello! My name is Bartosz Marciszewski, and I am a passionate Full-Stack Developer with expertise in Next.js and Java. I have a strong background in creating dynamic and responsive web applications. My goal is to deliver high-quality user experiences and contribute to impactful projects. ",
+    description: "Hello! My name is Bartosz Marciszewski, and I am a passionate Full-Stack Developer with expertise in React Next.js and Java and some Angular. I have a strong background in creating dynamic and responsive web applications. My goal is to deliver high-quality user experiences and contribute to impactful projects. ",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -71,8 +71,7 @@ const content = [
   },
   {
     title: "Ripple",
-    description:
-      "Ripple was real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+    description: "I developed a tool called Ripple UI for transferring data between different data sources, such as from Redshift to S3. Ripple UI had extensive capabilities, including managing agents, viewing jobs and batches, and managing users. I handled all aspects of its development, ensuring a robust and user-friendly interface for seamless data transfer operations.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
@@ -87,8 +86,7 @@ const content = [
   },
   {
     title: "RQUEST",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+    description: "I worked on an application called RQUEST, designed to query medical data efficiently. The application featured a robust query creation tool that allowed users to build complex queries with ease. Additionally, it included comprehensive user management and role-based access control, ensuring a secure and customizable user experience.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
@@ -103,7 +101,7 @@ const content = [
   {
     title: "Pfizer dashboard",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "One of the notable projects I worked on was a dashboard used in Pfizer meetings to discuss critical data. This dashboard featured a variety of charts, metrics, and graphs, offering a comprehensive visual representation of the data. It facilitated insightful discussions and informed decision-making by presenting key information in an easily understandable format.      ",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
@@ -153,10 +151,10 @@ export default function Home() {
         className="div"
       >
         <h2 className=" pt-5 text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-          Let`&apos;`s connect
+          Let&apos;s connect
         </h2>
         <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-          Write me an email, and let`&apos;`s discuss your requirements, I will be happy to provide my services.
+          Write me an email, and let&apos;s discuss your requirements, I will be happy to provide my services.
         </p>
       </motion.div>
 
